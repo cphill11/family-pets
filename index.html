@@ -9,11 +9,11 @@
 </head>
 
 <body>
-     <header>
+    <header>
         <h1>
             <a href="/">Phillips Family Pets</a>
         </h1>
-    <!-- start navigation tags-->
+        <!-- start navigation tags-->
         <nav>
             <ul>
                 <li>
@@ -33,6 +33,62 @@
     </header>
     <!-- end nav-->
 
+    <!--hero / jumbotron-->
+    <section class="hero">
+        <div class="hero-cta">
+            <h2>We Love to Play, Do YOU?</h2>
+            <p>
+                Puppers love to do puppers things. Chewing bones, playing tug, pulling and shaking plush toys until the
+                fluff white bits looks like a blizzard on the carpet!
+            </p>
+        </div>
+
+        <!-- meet and greet form -->
+        <div class="hero-form">
+            <h2>Tell Us About Your Pet</h2>
+            <p> Fill out this form and our humans will reach back to you.</p>
+            <form>
+                <label for="name">Pet's Name</label>
+                <input type="text" placeholder="Your Pet's Name" id="name" class="form-input" />
+
+                <label for="email">Owner's Email</label>
+                <input type="email" placeholder="Owner's Email" id="email" name="email" class="form-input" />
+
+                <label for="phone">Owner's Phone Number</label>
+                <input type="tel" placeholder="Owner's Phone Number" id="phone" class="form-input" />
+
+                <p>Has your pet played with other dogs before?
+
+                    <span class="radio-wrapper">
+                        <input type="radio" name="playtime-confirm" id="playtime-yes" />
+
+                        <label for="playtime-yes">Yes</label>
+                    </span>
+                    <span class="radio-wrapper">
+                        <input type="radio" name="playtime-confirm" id="playtime-no" />
+
+                        <label for="playtime-no">No</label>
+                    </span>
+                </p>
+
+                <p>
+                    <span class="checkbox-wrapper">
+                        <input type="checkbox" name="checkpoint" id="checkbox" />
+
+                        <label for="checkbox">Owner acknowledge's that pet interested in playtime has been vaccinated &
+                            is healthy.</label>
+                        <br>
+                        <input type="checkbox" name="checkpoint" id="checkbox" />
+
+                        <label for="checkbox">Owner acknowledge's that pet interested in playtime plays well with
+                            others.</label>
+                    </span>
+                </p>
+                <button type="submit">Submit Info</button>
+            </form>
+        </div>
+        <!--end meet and greet form-->
+    </section>
 </body>
 
 </html>
