@@ -28,10 +28,10 @@
         .hero-cta {
             text-align: center;
         }
-        .section-title {
+        .ripley-title {
             width: 80%;
          }
-         .trainer {
+         .ripley {
              flex: 0 70%;
          }
          .contact-info iframe {
@@ -45,25 +45,25 @@
          padding: 30px 15px;
      }
  
-     .step h3 {
+     .ripley h3 {
          flex: 1 100%;
          text-align: center;
      }
  
-     .step-info {
+     .ripley-info {
          flex: 2 100%;
          text-align: center;
          justify-content: center;
      }
  
-     .step-img {
+     .ripley-img {
          flex: 0 32%;
          margin-right: 0;
          margin-top: 15px;
          margin-bottom: 15px;
      }
  
-     .step-text {
+     .ripley-text {
          flex: 100%;
      }
  }
@@ -76,7 +76,7 @@
          width: 100%;
      }
  
-     .section-title {
+     .ripley-title {
          width: 95%;
      }
  
@@ -84,11 +84,11 @@
          width: 100%;
      }
  
-     .trainer {
+     .ripley {
          flex: 0 100%;
      }
      
-     .contract-info {
+     .contact-info {
          text-align: center;
      }
  

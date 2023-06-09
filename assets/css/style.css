@@ -101,7 +101,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpeg");
+  /* background-image: url("../images/hero-bg.jpeg"); */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -114,10 +114,10 @@ section {
 
 .hero-form {
   border: 3px solid var(--secondary-color);
-  background-color: rgba(252, 225, 56, 0.8);
+  background-color: rgba(114, 122, 130, 0.8);
   padding: 20px;
-  color: var(--secondary-color);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: rgb(70, 70, 75);
+  box-shadow: 0 0 10px rgba(99, 102, 103, 0.5);
   border-radius: 15px;
 }
 
@@ -130,6 +130,10 @@ section {
 
 .hero-form p {
   margin: 5px 0 15px 0;
+}
+
+.hero-form form {
+  color: rgb(41, 54, 60);
 }
 
 .hero-cta {
@@ -164,7 +168,7 @@ section {
 .form-input:focus {
   background-color: rgba(255, 255, 255, 1);
 }
-
+ 
 .hero-form label {
   margin: 0 5px;
 }
@@ -179,7 +183,7 @@ section {
 }
 
 .hero-form button:hover {
-  background-color: var(--tertiary-color);
+  background-color: white;
 }
 
 .checkbox-wrapper input,
@@ -195,13 +199,14 @@ section {
   line-height: 1.6;
 }
 
+/* square & circle checkboxes */
 .checkbox-wrapper label::before,
 .radio-wrapper label::before {
   content: "";
   height: 20px;
   width: 20px;
   background: rgba(255, 255, 255, 0.75);
-  border: 1px solid var(--secondary-color);
+  border: 1px solid blue;
   position: absolute;
   top: -4px;
   left: -30px;
@@ -216,23 +221,16 @@ section {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--secondary-color);
   position: absolute;
   left: -29px;
   top: -3px;
-  background-image: radial-gradient(
-    circle,
-    var(--tertiary-color),
-    var(--secondary-color)
-  );
+
 }
 
 .checkbox-wrapper label::after {
   content: "";
   height: 6px;
   width: 14px;
-  border-left: 2px solid var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
   position: absolute;
   left: -26px;
   top: 1px;
@@ -249,22 +247,12 @@ section {
   content: "";
 }
 
-.intro p {
-  margin: 0 auto;
-  line-height: 1.7;
-  color: var(--tertiary-color);
-  width: 80%;
-  font-size: 20px;
-  text-align: center;
-}
 
-.steps {
-  background: var(--primary-color);
-}
 
+/* headings for sections, 'Who We Are', 'What We Do', 'About Our Humans' */
 .section-title {
   font-size: 48px;
-  color: var(--secondary-color);
+  color: rgb(66, 47, 175);
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
@@ -272,17 +260,19 @@ section {
   width: 50%;
 }
 
+/* Below 'Who We Are', 'What We Do', 'About Our Humans' */
 .primary-border {
-  border-color: var(--primary-color);
+  border-color: blue;
 }
 
+/* below Reach Out to Play */
 .secondary-border {
-  border-color: var(--tertiary-color);
+  border-color: red;
 }
 
 /* Ripley */
 .ripley h3 {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   font-size: 46px;
   flex: 1 30%;
 }
@@ -302,20 +292,18 @@ section {
 .ripley-text {
   font-size: 26px;
   line-height: 1.5;
-  color: var(--secondary-color);
-  flex: 12;
-  margin: 0;
+    /* color: rgb(41, 54, 60); */
 }
 
 .ripley {
-  margin: 50px auto;
+  margin: 25px 50px 25px 50px;
   padding-bottom: 50px;
   width: 80%;
   display: flex;
   flex-wrap: wrp;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--tertiary-color);
+  /* border-bottom: 1px solid var(--tertiary-color); */
 }
 
 .ripley:last-child {
@@ -333,7 +321,7 @@ section {
 
 /* Lexi */
 .lexi h3 {
-  color: var(--primary-color);
+ /* primary-color) */
   font-size: 46px;
   flex: 1 30%;
 }
@@ -346,14 +334,14 @@ section {
 }
 
 .lexi-text p {
-  color: var(--tertiary-color);
+  /* color: var(--primary-color); */
   font-size: 18px;
 }
 
 .lexi-text h4 {
   font-size: 26px;
   line-height: 1.5;
-  color: var(--secondary-color);
+  /* color: var(--primary-color); */
   flex: 12;
 }
 
@@ -365,7 +353,7 @@ section {
   flex-wrap: wrp;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--tertiary-color);
+  border-bottom: 5px solid (black);
 }
 
 .lexi:last-child {
@@ -389,7 +377,7 @@ section {
   text-align: right;
 }
 
-.trainer {
+/* .trainer {
   margin: 20 px;
   background: var(--secondary-color);
   color: var(--primary-color);
@@ -406,7 +394,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+} */
 
 /* needed this as well b/c the code didn't originally work in my browser when following directions for CSS */
 .trainer-right img {
@@ -508,8 +496,9 @@ section {
 }
 
 .contact-form button:hover {
-  color: var(--primary-color);
-  background: var(--tertiary-color);
+  color: black;
+  background: rgb(181, 196, 196);
+  border: 10px black;
 }
 
 .flex-row {
