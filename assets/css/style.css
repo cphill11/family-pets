@@ -112,6 +112,7 @@ section {
   color: rgb(70, 70, 75);
   box-shadow: 0 0 10px rgba(99, 102, 103, 0.5);
   border-radius: 15px;
+  margin-left: 1.5%;
 }
 
 .hero-form h2 {
@@ -134,12 +135,12 @@ section {
 }
 
 .hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
+  width: 30%;
+  text-align: center;
+  margin: 2.5%;
   color: rgb(92, 92, 128);
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .hero-cta h2 {
@@ -258,6 +259,9 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
   width: 100%;
 }
 
+.what-dogs-do li {
+  margin: 30%;
+}
 
 /* Ripley and Lexi */
 .ripley h3, .lexi h3 {
@@ -276,6 +280,7 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
 .ripley-text p, .lexi-text p {
   color: rgb(92, 92, 128);
   font-size: 18px;
+ 
 }
 
 .ripley-text, .lexi-text {
