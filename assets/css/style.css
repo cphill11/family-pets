@@ -122,13 +122,16 @@ section {
   border-radius: 15px;
 }
 
-.hero-form h3 {
+.hero-form h2 {
   font-size: 24px;
-  margin: 0;
   width: 40%;
-  margin: 3.5%;
+  margin: 0%;
 }
 
+.hero-form label {
+ padding: 0 0 25% 0;
+ color: rgb(49, 47, 58);
+}
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -169,23 +172,32 @@ section {
 .form-input:focus {
   background-color: rgba(255, 255, 255, 1);
 }
+
+.hero-form button, .contact-form button {
+  width: 100%;
+  border: 3px solid rgb(111, 111, 125);
+  background: var(--primary-color);
+  color: rgb(46, 46, 48);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  font-style: bold;
+  border-radius: 10px;
  
-.hero-form label {
-  margin: 0 5px;
 }
 
-.hero-form button {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+.hero-form button:hover, .contact-form button:hover {
+  color: black;
+  font-weight: 200;
+  text-decoration: underline;
+  background: rgb(38, 112, 112);
+  border: 3px solid black;
   border-radius: 10px;
 }
 
-.hero-form button:hover {
-  background-color: white;
-}
+
+
+
 
 .checkbox-wrapper input,
 .radio-wrapper input {
@@ -257,14 +269,10 @@ section {
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 auto 35 px auto;
+  margin: 0 auto 10% auto;
   width: 50%;
 }
 
-/* Below 'Who We Are', 'What We Do', 'About Our Humans' */
-.primary-border {
-  border-color: blue;
-}
 
 /* below Reach Out to Play */
 .secondary-border {
@@ -378,48 +386,6 @@ section {
   text-align: right;
 }
 
-/* .trainer {
-  margin: 20 px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  flex: 1;
-}
-
-.trainer img {
-  width: 100%;
-}
-
-.trainers {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-} */
-
-/* needed this as well b/c the code didn't originally work in my browser when following directions for CSS */
-.trainer-right img {
-  width: 35%;
-  float: right;
-}
-.trainer-bio {
-  padding: 25px;
-  line-height: 1.3;
-}
-
-.trainer-bio h3 {
-  font-size: 28px;
-}
-
-.trainer-bio h4 {
-  font-weight: lighter;
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-
-.trainer-bio p {
-  font-size: 17px;
-}
 
 /* REACH OUT STYLES START */
 .contact {
@@ -485,27 +451,7 @@ section {
   outline: none;
 }
 
-.contact-form button {
-  width: 100%;
-  border: 3px solid rgb(111, 111, 125);
-  background: var(--primary-color);
-  color: rgb(46, 46, 48);
-  text-align: center;
-  padding: 15px 0;
-  font-size: 18px;
-  font-style: bold;
-  border-radius: 10px;
- 
-}
 
-.contact-form button:hover {
-  color: black;
-  font-weight: 200;
-  text-decoration: underline;
-  background: rgb(38, 112, 112);
-  border: 3px solid black;
-  border-radius: 10px;
-}
 
 .flex-row {
   display: flex;

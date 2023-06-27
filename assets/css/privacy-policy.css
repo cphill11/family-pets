@@ -7,10 +7,10 @@
 }
 
 .page-title {
-    color: #fce138;
+    color: #313942;
     display: inline-block;
-    border-bottom: 4px solid #fce138;
-    padding: 0 80px 15px 80px;
+    border-bottom: 4px solid #313942;
+    padding: 0 25% 15px 25%;
     font-weight: normal;
     font-size: 42px;
     font-style: italic;
@@ -20,6 +20,7 @@
     width: 80%;
     margin: center;
     color: #024e76;
+    padding-left: 10%;
 
 }
 
