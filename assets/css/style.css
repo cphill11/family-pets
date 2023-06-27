@@ -5,9 +5,9 @@
 }
 
 :root {
-  --primary-color: #6e7470;
-  --secondary-color: #8ad587;
-  --tertiary-color: #afc699;
+  --primary-color:  #928d8d;
+  --secondary-color: #878f87;
+  --tertiary-color: #6b577d;
 }
 
 Body {
@@ -18,7 +18,7 @@ Body {
 
 header {
   padding: 20px 35px;
-  background-color: var(--tertiary-color);
+  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -75,13 +75,13 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: var(--primary-color);
+  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
   width: 100%;
   padding: 40px 35px;
 }
 
 footer h2 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 30px;
   margin: 0;
 }
@@ -422,11 +422,11 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 .contact h2 {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .contact-info > * {
@@ -445,7 +445,7 @@ section {
 }
 
 .contact-info div {
-  color: white;
+  color: var(--secondary-color);
 }
 
 .contact-info h3 {
@@ -486,19 +486,24 @@ section {
 
 .contact-form button {
   width: 100%;
-  border: none;
+  border: 3px solid rgb(111, 111, 125);
   background: var(--primary-color);
-  color: var(--secondary-color);
+  color: rgb(46, 46, 48);
   text-align: center;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 18px;
+  font-style: bold;
   border-radius: 10px;
+ 
 }
 
 .contact-form button:hover {
   color: black;
-  background: rgb(181, 196, 196);
-  border: 10px black;
+  font-weight: 200;
+  text-decoration: underline;
+  background: rgb(38, 112, 112);
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .flex-row {
