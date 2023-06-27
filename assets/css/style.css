@@ -13,7 +13,8 @@
 Body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
-  /* background-image: url("../images/hero-bg.png"); */
+  background-color:rgba(195, 198, 203, 0.913);
+
 }
 
 header {
