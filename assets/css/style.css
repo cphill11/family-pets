@@ -293,7 +293,7 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
 .ripley, .lexi {
   margin: 1 5 1 5;
   padding-bottom: 15px;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-wrap: wrp;
   align-items: center;
