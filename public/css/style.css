@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary-color: #928d8d;
-  --secondary-color: #878f87;
-  --tertiary-color: #6b577d;
-}
-
 Body {
   color: rgb(92, 92, 128);
   font-family: Helvetica, Arial, sans-serif;
@@ -36,13 +30,13 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: var(--primary-color);
+  color: #928d8d;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #928d8d;
 }
 
 header nav {
@@ -74,7 +68,7 @@ footer {
 }
 
 footer h2 {
-  color: var(--primary-color);
+  color: #928d8d;
   font-size: 30px;
   margin: 0;
 }
@@ -85,7 +79,7 @@ footer div {
 }
 
 footer a {
-  color: var(--secondary-color);
+  color: #878f87;
 }
 
 section {
@@ -106,7 +100,7 @@ section {
 }
 
 .hero-form {
-  border: 3px solid var(--secondary-color);
+  border: 3px solid #878f87;
   background-color: rgba(114, 122, 130, 0.8);
   padding: 20px;
   color: rgb(70, 70, 75);
@@ -155,7 +149,7 @@ section {
   display: block;
   padding: 7px 15px;
   font-size: 16 px;
-  color: var(--secondary-color);
+  color: #878f87;
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -171,7 +165,7 @@ section {
 .contact-form button {
   width: 100%;
   border: 3px solid rgb(111, 111, 125);
-  background: var(--primary-color);
+  background: #928d8d;
   color: rgb(46, 46, 48);
   text-align: center;
   padding: 15px 0;
@@ -186,7 +180,7 @@ header nav ul li a:hover,
   color: rgba(25, 25, 27, 0.646);
   font-weight: 200;
   text-decoration: underline;
-  background: linear-gradient(to left, rgb(92, 113, 143), rgb(155, 154, 153));
+  background-color: linear-gradient(to left, rgb(28, 29, 29), rgb(155, 154, 153));
   border: 3px solid rgb(45, 45, 75);
   border-radius: 10px;
 }
@@ -326,11 +320,11 @@ header nav ul li a:hover,
 
 /* REACH OUT STYLES START */
 .contact {
-  background: var(--primary-color);
+  background: #928d8d;
 }
 
 .contact h2 {
-  color: var(--tertiary-color);
+  color: #6b577d;
 }
 
 .contact-info > * {
@@ -349,11 +343,11 @@ header nav ul li a:hover,
 }
 
 .contact-info div {
-  color: var(--secondary-color);
+  color: #878f87;
 }
 
 .contact-info h3 {
-  color: var(--primary-color);
+  color: #928d8d;
   font-size: 32px;
 }
 
@@ -366,7 +360,7 @@ header nav ul li a:hover,
 }
 
 .contact-info a {
-  color: var(--primary-color);
+  color: #928d8d;
 }
 
 .contact-form h3 {
@@ -375,11 +369,11 @@ header nav ul li a:hover,
 }
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid #878f87;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: var(--secondary-color);
+  color: #878f87;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
