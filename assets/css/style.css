@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color:  #928d8d;
+  --primary-color: #928d8d;
   --secondary-color: #878f87;
   --tertiary-color: #6b577d;
 }
@@ -13,7 +13,7 @@
 Body {
   color: rgb(92, 92, 128);
   font-family: Helvetica, Arial, sans-serif;
-  background-color:rgba(195, 198, 203, 0.913);
+  background-color: rgba(195, 198, 203, 0.913);
 }
 
 header {
@@ -122,8 +122,8 @@ section {
 }
 
 .hero-form label {
- padding: 0 0 25% 0;
- color: rgb(49, 47, 58);
+  padding: 0 0 25% 0;
+  color: rgb(49, 47, 58);
 }
 
 .hero-form p {
@@ -167,7 +167,8 @@ section {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.hero-form button, .contact-form button {
+.hero-form button,
+.contact-form button {
   width: 100%;
   border: 3px solid rgb(111, 111, 125);
   background: var(--primary-color);
@@ -179,7 +180,9 @@ section {
   border-radius: 10px;
 }
 
-header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
+header nav ul li a:hover,
+.hero-form button:hover,
+.contact-form button:hover {
   color: rgba(25, 25, 27, 0.646);
   font-weight: 200;
   text-decoration: underline;
@@ -191,7 +194,7 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
 .checkbox-wrapper input,
 .radio-wrapper input {
   opacity: 0;
- }
+}
 
 .checkbox-wrapper label,
 .radio-wrapper label {
@@ -199,7 +202,7 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
   left: 10px;
   margin: 10px;
   line-height: 1.6;
-  }
+}
 
 /* square & circle checkboxes */
 .checkbox-wrapper label::before,
@@ -259,58 +262,56 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
   width: 100%;
 }
 
-.what-dogs-do li {
-  margin: 30%;
-}
-
 /* Ripley and Lexi */
-.ripley h3, .lexi h3 {
+.ripley h3,
+.lexi h3 {
   color: rgb(92, 92, 128);
   font-size: 46px;
   flex: 1 30%;
+  max-width: 25%;
 }
 
-.ripley-info, .lexi-info {
+.ripley-info,
+.lexi-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  max-width: 25%;
 }
 
-.ripley-text p, .lexi-text p {
-  color: rgb(92, 92, 128);
-  font-size: 18px;
- 
-}
-
-.ripley-text, .lexi-text {
+.ripley-text,
+.lexi-text {
   color: rgb(92, 92, 128);
   font-size: 26px;
   line-height: 1.5;
-  width: 80%;
+  max-width: 60%;
 }
 
-.ripley, .lexi {
-  margin: 1 5 1 5;
+.ripley,
+.lexi {
   padding-bottom: 15px;
   width: 100%;
   display: flex;
-  flex-wrap: wrp;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.ripley:last-child, .lexi:last-child {
+.ripley:last-child,
+.lexi:last-child {
   border-bottom: none;
 }
 
-.ripley-img, .lexi-img {
+.ripley-img,
+.lexi-img {
   flex: 1 12%;
   margin-left: 20px;
 }
 
-.ripley-img img, .lexi-img img {
-  max-width: 45%;
+.ripley-img img,
+.lexi-img img {
+  max-width: 100%;
   border: 10px solid rgb(111, 111, 125);
   margin-bottom: 25px;
 }
@@ -322,7 +323,6 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
 .text-right {
   text-align: right;
 }
-
 
 /* REACH OUT STYLES START */
 .contact {
