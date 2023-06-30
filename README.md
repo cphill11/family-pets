@@ -22,6 +22,6 @@ https://github.com/cphill11/family-pets.git
 
 
 ## Image: 
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](public/template/assets/images/screenshot.png)
 ## Contribution
 Criste Phillips.  Sticky paws off unless permitted by creator.
