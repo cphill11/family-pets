@@ -310,7 +310,7 @@ header nav ul li a:hover, .hero-form button:hover, .contact-form button:hover {
 }
 
 .ripley-img img, .lexi-img img {
-  max-width: 50%;
+  max-width: 45%;
   border: 10px solid rgb(111, 111, 125);
   margin-bottom: 25px;
 }
