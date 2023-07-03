@@ -17,8 +17,11 @@ When user selects 'Reach Out', user is directed to section containing email addr
 * HTML
 * CSS
 * JavaScript
-* Node.js
+* Node
+* Express
 * Sequelize
+* Handlebars
+* Path
 
 ## Website
 https://github.com/cphill11/family-pets.git
