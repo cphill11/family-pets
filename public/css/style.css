@@ -12,7 +12,7 @@ Body {
 
 header {
   padding: 20px 35px;
-  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
+  background-image: radial-gradient(circle, rgb(81, 146, 154), rgb(52, 64, 103),rgb(50, 67, 138), rgb(29, 20, 50));;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -62,7 +62,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
+  background-image: radial-gradient(circle, rgb(81, 146, 154), rgb(52, 64, 103),rgb(50, 67, 138), rgb(29, 20, 50));;
   width: 100%;
   padding: 40px 35px;
 }
@@ -297,17 +297,26 @@ header nav ul li a:hover,
   border-bottom: none;
 }
 
-.ripley-img,
+/* .ripley-img,
 .lexi-img {
   flex: 1 12%;
   margin-left: 20px;
-}
+} */
 
 .ripley-img img,
 .lexi-img img {
-  max-width: 100%;
+  flex: 1 12%;
+  margin-left: 20px;
+  max-width: 50%;
   border: 10px solid rgb(111, 111, 125);
   margin-bottom: 25px;
+}
+
+.girls-img img {
+  max-width: 50%;
+  border: 10px solid rgb(111, 111, 125);
+  margin-bottom: 25px;
+  margin-left: 25%; 
 }
 
 .text-left {
