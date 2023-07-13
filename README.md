@@ -2,6 +2,7 @@
 
 ## Purpose
 A website that helps find fun playmates for sweet dogs.
+
 ** Note **
 This application does not actually reach anyone
 Email, address, and google map are entirely fictitious
@@ -16,12 +17,7 @@ When user selects 'Reach Out', user is directed to section containing email addr
 ## Built With
 * HTML
 * CSS
-* JavaScript
-* Node
-* Express
-* Sequelize
-* Handlebars
-* Path
+
 
 ## Website
 https://github.com/cphill11/family-pets.git
