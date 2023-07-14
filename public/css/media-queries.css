@@ -20,6 +20,7 @@
   }
   header nav ul li a {
     font-size: 20px;
+    padding: 20 20 20 20;
   }
   footer h2,
   footer div,
@@ -72,7 +73,9 @@
   }
   header nav ul li a {
     font-size: 20px;
+    padding: 20 20 20 20;
   }
+
   footer h2,
   footer div,
   footer a {
@@ -95,7 +98,15 @@
 
   .ripley-img img,
   .lexi-img img {
-    max-width: 50%;
+    max-width: 65%;
+    flex: 0 50%;
+  }
+
+  .ripley h3, .lexi h3 {
+    font-size: 30px;
+  }
+  .ripley-text, .lexi-text {
+    font-size: 20px;
   }
   .contact-info iframe {
     flex: 1 100%;
@@ -109,6 +120,10 @@
   }
   header a {
     color: rgb(17, 37, 118);
+  }
+  header nav ul li a {
+    font-size: 20px;
+    padding: 20 20 20 20;
   }
   footer h2,
   footer div,
@@ -127,8 +142,21 @@
   .lexi h3 {
     flex: 1 100%;
     text-align: left;
-    font-size: 32px;
+    font-size: 25px;
   }
+
+  .ripley-img img,
+  .lexi-img img {
+    max-width: 65%;
+    flex: 0 50%;
+  }
+
+
+  .ripley-text, .lexi-text {
+    font-size: 20px;
+
+  }
+
 
   .ripley-info,
   .lexi-info {
@@ -136,7 +164,7 @@
     font-size: 20px;
   }
 
-  .ripley-img {
+  /* .ripley-img {
     flex: 0 50%;
     margin-right: 0;
     margin-top: 15px;
@@ -144,7 +172,7 @@
     max-height: 100%;
     max-width: 100%;
     padding: 0;
-  }
+  } */
   .contact-info iframe {
     flex: 1 100%;
   }
@@ -154,6 +182,10 @@
 @media screen and (max-width: 480px) {
   header a {
     color: rgb(17, 37, 118);
+  }
+  header nav ul li a {
+    font-size: 20px;
+    padding: 20 20 20 20;
   }
   footer h2,
   footer div,
@@ -170,11 +202,12 @@
   .ripley h3 {
     flex: 1 100%;
     text-align: left;
+    font-size: 18px;
   }
 
   .ripley-text,
   .lexi-text {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .ripley-info,
