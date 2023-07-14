@@ -11,18 +11,21 @@ Body {
 }
 
 header {
-  padding: 20px 35px;
-  background-image: radial-gradient(circle, rgb(81, 146, 154), rgb(52, 64, 103),rgb(50, 67, 138), rgb(29, 20, 50));;
+  background-image: radial-gradient(
+    circle, 
+    rgb(180, 188, 199), 
+    rgb(60, 131, 164), 
+    rgb(66, 96, 193),
+    rgb(50, 67, 138), 
+    rgb(29, 20, 50));;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
+  width: 100%;
+  padding: 40px 35px;
   position: sticky;
   top: 0;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 100%;
   z-index: 9999;
 }
 
@@ -62,7 +65,13 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: radial-gradient(circle, rgb(81, 146, 154), rgb(52, 64, 103),rgb(50, 67, 138), rgb(29, 20, 50));;
+  background-image: radial-gradient(
+    circle, 
+    rgb(180, 188, 199), 
+    rgb(60, 131, 164), 
+    rgb(66, 96, 193),
+    rgb(50, 67, 138), 
+    rgb(29, 20, 50));
   width: 100%;
   padding: 40px 35px;
 }
@@ -296,12 +305,6 @@ header nav ul li a:hover,
 .lexi:last-child {
   border-bottom: none;
 }
-
-/* .ripley-img,
-.lexi-img {
-  flex: 1 12%;
-  margin-left: 20px;
-} */
 
 .ripley-img img,
 .lexi-img img {
