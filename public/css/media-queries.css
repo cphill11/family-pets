@@ -93,12 +93,12 @@
     flex: auto;
   }
 
-  .contact-info iframe {
-    flex: 1 100%;
-  }
   .ripley-img img,
   .lexi-img img {
     max-width: 50%;
+  }
+  .contact-info iframe {
+    flex: 1 100%;
   }
 }
 
@@ -144,6 +144,9 @@
     max-height: 100%;
     max-width: 100%;
     padding: 0;
+  }
+  .contact-info iframe {
+    flex: 1 100%;
   }
 }
 
@@ -204,11 +207,14 @@
     text-align: center;
   }
 
-  .contact-info > * {
+  .contact-info {
     flex: 0 100%;
   }
 
   .contact-form {
     order: 3;
+  }
+  .contact-info iframe {
+    flex: 1 100%;
   }
 }

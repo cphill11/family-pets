@@ -181,10 +181,9 @@ section {
   border-radius: 10px;
 }
 
-header nav ul li a:hover,
-.hero-form form button:hover,
-.contact-form button:hover {
-  color: rgba(25, 25, 27, 0.646);
+header nav ul li a:hover
+ {
+  color: rgb(180, 184, 190);
   font-weight: 200;
   text-decoration: underline;
   /* background: linear-gradient(
@@ -193,12 +192,27 @@ header nav ul li a:hover,
     rgb(155, 154, 153)); */
  background-image: radial-gradient(
     circle, 
-    rgb(181, 198, 218),  
-   rgb(70, 147, 182), 
-    rgb(60, 91, 193),
-    rgb(55, 76, 157), 
-    rgb(50, 70, 148) 
-     );
+    rgb(40, 90, 120),  
+    rgb(40, 80, 120), 
+   rgb(40, 70, 120),
+    rgb(40, 60, 120), 
+    rgb(40, 50, 120));
+ border: 3px solid rgb(45, 45, 75);
+  border-radius: 10px; 
+}
+
+.hero-form form button:hover,
+.contact-form button:hover {
+  color: rgb(180, 184, 190);
+  font-weight: 200;
+  text-decoration: underline;
+ background-image: radial-gradient(
+    circle, 
+    rgb(40, 100, 120),  
+    rgb(40, 90, 120), 
+   rgb(40, 80, 120),
+    rgb(40, 70, 120), 
+    rgb(40, 60, 120));
  border: 3px solid rgb(45, 45, 75);
   border-radius: 10px; 
 }
@@ -354,10 +368,6 @@ header nav ul li a:hover,
   height: 700px;
 }
 
-.contact-info iframe {
-  height: 400px;
-}
-
 .contact-info {
   display: flex;
   justify-content: space-between;
@@ -368,6 +378,11 @@ header nav ul li a:hover,
   color: #878f87;
 }
 
+/* .contact-info div iframe {
+  border-style: solid;
+  border-color: red;
+
+} */
 .contact-info h3 {
   color: #928d8d;
   font-size: 32px;
