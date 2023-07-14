@@ -5,6 +5,10 @@
     justify-content: center;
     position: relative;
   }
+  header a {
+    color: rgb(17, 37, 118);
+  }
+
   header h1 {
     width: 100%;
     text-align: center;
@@ -18,10 +22,13 @@
     font-size: 20px;
   }
   footer h2,
-  footer div {
+  footer div,
+  footer a {
     text-align: center;
+    color: rgb(17, 37, 118);
     width: 100%;
   }
+
   .hero-cta,
   .hero-form {
     width: 100%;
@@ -40,6 +47,7 @@
   }
 }
 
+
 /* MEDIA QUERY FOR SMALL SCREENS AND LAPTOPS */
 @media screen and (max-width: 1024px) {
   /* from above, to be sized*/
@@ -49,6 +57,10 @@
     justify-content: center;
     position: relative;
   }
+  header a {
+    color: rgb(17, 37, 118);
+  }
+
   header h1 {
     width: 100%;
     text-align: center;
@@ -62,8 +74,10 @@
     font-size: 20px;
   }
   footer h2,
-  footer div {
+  footer div,
+  footer a {
     text-align: center;
+    color: rgb(17, 37, 118);
     width: 100%;
   }
   .hero-cta,
@@ -93,7 +107,16 @@
   section {
     padding: 30px 15px;
   }
-
+  header a {
+    color: rgb(17, 37, 118);
+  }
+  footer h2,
+  footer div,
+  footer a {
+    text-align: center;
+    color: rgb(17, 37, 118);
+    width: 100%;
+  }
   .section-title {
     width: 100%;
     flex: auto;
@@ -126,6 +149,16 @@
 
 /* MEDIA QUERY FOR MOBILE DEVICES */
 @media screen and (max-width: 480px) {
+  header a {
+    color: rgb(17, 37, 118);
+  }
+  footer h2,
+  footer div,
+  footer a {
+    text-align: center;
+    color: rgb(17, 37, 118);
+    width: 100%;
+  }
   .section-title {
     width: 100%;
     flex: auto;
